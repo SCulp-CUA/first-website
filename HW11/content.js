@@ -1,9 +1,8 @@
 fetch("https://picsum.photos/v2/list?page=2&limit=10")
     .then(async (res) => {
         const dataa = await res.json();
-        console.log("KIDS", dataa);
-        const pee=dataa.length;
-        console.log(pee);
+        console.log("List of Data", dataa);
+     
     
 
 
