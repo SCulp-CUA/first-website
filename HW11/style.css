@@ -1,21 +1,13 @@
 .cards {
     display: grid;
-    grid-template-columns: repeat(auto-fill, 500px);
+    grid-template-columns: repeat(auto-fill, 400px);
     background-color: #ff0000;
 }
 
 
-/*.cards {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    flex-direction: row;
-    max-height: 200px;
-    
-}*/
 
     .cards img {
         margin: 10px;
-        max-width:400px;
+        max-width:350px;
        
     }
