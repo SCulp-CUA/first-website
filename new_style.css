@@ -3,33 +3,22 @@
 		font-size: 12px;
 	}
 
-	header {
-		flex-direction: column;
-	}
-
 	body {
-		background-color: #392f5a;
+		background-color: #525e94;
 	}
 }
 
 @media screen and (min-width:750px) {
-	header {
-		flex-direction: column;
-		position: sticky;
-		top: 0px;
-		left: 30px;
-	}
-
 	body {
-		background-color: #f6f4f8;
+		background-color: #525e94;
 	}
 }
 
 #layout {
 	display: grid;
 	grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));
-	grid-template-columns: 20% 60% 20%;
-	background-color: #808ca9;
+	grid-template-columns: 10% 80% 10%;
+	background-color: #f6f5f4;
 }
 
 
@@ -50,27 +39,27 @@ h1 {
 }
 
 h2 {
-	color: #f6f4f8;
+	color: black;
 	text-align: center;
-	background-color: #392f5a;
 }
 
 
 p {
 	color: #392f5a;
-	text-indent: 25px;
 	font-size: 120%;
+	padding: 10px;
 }
+
 
 
 header {
 	grid-area: 1/1/1/4;
-	background-color: #392f5a;
+	background-color: #f6f5f4;
 }
 
 main {
 	grid-area: 2/2/2/2;
-	background-color: #8cbedf;
+	background-color: #525e94;
 }
 
 footer {
@@ -79,15 +68,17 @@ footer {
 	color: #392f5a;
 }
 
-.footer:hover {
-	background-color: #73c644;
+#email:hover {
+	background-color: #abbce0;
 }
 
-
+#instagram:hover {
+	background-color: #abbce0;
+}
 
 #company_name {
 	grid-area: 1/2/1/2;
-	background-color: #73c644;
+	background-color: #c5c1e6;
 	padding: 1rem;
 }
 
@@ -103,11 +94,33 @@ main img {
 	width: auto;
 }
 
+
+#section-1 {
+	background-color: #abbce0;
+}
+
+#section-2 {
+	background-color: #c7dabf;
+}
+
+#section-3 {
+	background-color: #abbce0;
+}
+
+#section-4 {
+	background-color: #c7dabf;
+}
+
+#Contact {
+	font-family: "Lucida Handwriting";
+	font-size: 200%;
+}
+
 .image-1 {
-	float: right;
+	display: block;
+	margin: auto;
+	width: 50%;
 	padding: 10px;
-	height: 10rem;
-	width: auto;
 }
 
 .image-2 {
@@ -137,7 +150,7 @@ main img {
 	width: 10rem;
 }
 
-#section-5 {
-	font-style: italic;
-	text-align: center;
+em {
+	color: orangered; /* Change the color of the italicized word */
+	font-family: cursive;
 }
